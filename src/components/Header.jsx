@@ -33,13 +33,13 @@ export default function Header() {
         <div className="dropdown  p-4 mt-1 hover:border w-20">
           <button className="btn flex  text-white  ">
             <img
-              className="mt-1.5"
+              className="mt-2 "
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_India.png/800px-Flag_of_India.png"
               width="20"
               alt=""
             />
-            <span>EN</span>
-            <span className="h-full p-1 text-white   hover:text-gray-700">
+            <span className="text-sm font-bold p-1">EN</span>
+            <span className="h-full p-1 text-white   ">
               <span className="sr-only">Menu</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,9 +78,7 @@ export default function Header() {
         <div className="cart m-1 py-4 hover:border ">
           <span>
             <i className="fa-solid text-[25px] fa-cart-shopping"></i>
-            <span className="p-1 text-yellow-400">
-                0
-            </span>
+            <span className="p-1 text-yellow-400">0</span>
           </span>
 
           <span className="text-white text-[12px]  font-bold">Cart</span>
