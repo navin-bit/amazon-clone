@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 export default function Header() {
   return (
     <div className="header flex flex-wrap w-full border p-1">
-      <div className="flex sm:w-[100%]  justify-around lg:w-[20%] w-full h-[60px]  ">
+      <div className="flex sm:w-[100%]  justify-around md:justify-around lg:w-[20%] w-full h-[60px]  ">
         <div className="amazon-icon flex sm:w-[50%] p-2 m-1 ms-2 hover:border">
           <a className="text-decoration-none" href="#">
             <img
@@ -29,7 +29,7 @@ export default function Header() {
       <div className="flex-auto sm:w-[100%] m-1  lg:w-[35%] w-full h-[60px]   text-white">
         <SearchBar />
       </div>
-      <div className="flex-auto flex sm:w-[100%] justify-between  lg:w-[5%] w-full h-[60px]  text-white">
+      <div className="flex-auto flex sm:w-[100%] md:justify-between justify-between sm:justify-between  lg:w-[5%] w-full h-[60px]  text-white">
         <div className="dropdown  p-4 mt-1 hover:border w-20">
           <button className="btn flex  text-white  ">
             <img
