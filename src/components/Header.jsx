@@ -69,21 +69,21 @@ export default function Header() {
         </div>
         <div className="orders">
           <button className="p-1 hover:border m-1">
-            <span className="text-white text-[12px] font-light">Returns</span>
+            <span className="text-white text-[10px] font-light">Returns</span>
             <br />
-            <span className="text-white text-[13px]  font-bold">& Orders</span>
+            <span className="text-white text-[12px]  font-bold">& Orders</span>
           </button>
         </div>
 
         <div className="cart m-1 p-3 hover:border ">
           <span>
-            <i className="fa-solid text-[30px] fa-cart-shopping"></i>
+            <i className="fa-solid text-[28px] fa-cart-shopping"></i>
             <span className="p-1 text-yellow-400">
                 0
             </span>
           </span>
 
-          <span className="text-white text-[13px]  font-bold">Cart</span>
+          <span className="text-white text-[12px]  font-bold">Cart</span>
         </div>
       </div>
     </div>
