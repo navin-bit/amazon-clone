@@ -29,7 +29,7 @@ export default function Header() {
       <div className="flex-auto sm:w-[100%] m-1  lg:w-[35%] w-full h-[60px]   text-white">
         <SearchBar />
       </div>
-      <div className="flex-auto flex sm:w-[100%] justify-evenly  lg:w-[5%] w-full h-[60px]  text-white">
+      <div className="flex-auto flex sm:w-[100%] justify-between  lg:w-[5%] w-full h-[60px]  text-white">
         <div className="dropdown  p-4 mt-1 hover:border w-20">
           <button className="btn flex  text-white  ">
             <img
