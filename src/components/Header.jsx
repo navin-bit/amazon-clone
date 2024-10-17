@@ -75,9 +75,9 @@ export default function Header() {
           </button>
         </div>
 
-        <div className="cart m-1 p-3 hover:border ">
+        <div className="cart m-1 p-2 hover:border ">
           <span>
-            <i className="fa-solid text-[28px] fa-cart-shopping"></i>
+            <i className="fa-solid text-[25px] fa-cart-shopping"></i>
             <span className="p-1 text-yellow-400">
                 0
             </span>
