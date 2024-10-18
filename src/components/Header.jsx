@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (
-    <div className="header flex flex-wrap w-full border p-1">
+    <div className="header flex flex-wrap w-full border">
       <div className="flex sm:w-[100%]  justify-around md:justify-around lg:w-[20%] w-full h-[60px]  ">
         <div className="amazon-icon flex sm:w-[50%] p-2 m-1 ms-2 hover:border">
           <a className="text-decoration-none" href="#">
