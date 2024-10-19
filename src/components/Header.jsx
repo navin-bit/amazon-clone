@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
+import { MdArrowDropDown } from "react-icons/md";
 
 export default function Header() {
   return (
@@ -56,16 +57,21 @@ export default function Header() {
             </span>
           </button>
         </div>
-        <div className="account">
-          <button className="p-1 hover:border m-1">
+        <div className="account flex hover:border m-1">
+          <div>
+          <button  >
             <span className="text-white text-[12px] font-light">
               Hello,sign in
             </span>
             <br />
-            <span className="text-white text-[13px]  font-bold">
-              Account & Lists
+            <span className="text-white text-[12px]  font-bold">
+              Account & Listsspa 
             </span>
           </button>
+          </div>
+         <div >
+         <MdArrowDropDown className="relative top-7" />
+         </div>
         </div>
         <div className="orders">
           <button className="p-1 hover:border m-1">

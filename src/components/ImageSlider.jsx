@@ -3,7 +3,6 @@ import test from "../assets/slider-images/img4.jpg";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { ImageStore } from "../store/Images";
- 
 
 export default function ImageSlider() {
   const [Images, setImage] = useState([]);
@@ -54,19 +53,17 @@ export default function ImageSlider() {
         : "Image not found"}
 
       <button
-        className="absolute top-[110px] left-0 transform -translate-y-1/2 text-[45px]   text-white p-2 h-1/2 w-[50px] focus:outline-none"
+        className="absolute top-0 hover:border left-0   text-[45px]  text-white   h-[30vh] w-[50px]  focus:outline-none"
         onClick={prevImage}
       >
         <MdKeyboardArrowLeft />
       </button>
       <button
-        className="absolute top-[110px]  right-0 transform -translate-y-1/2  text-[45px]   text-white p-2 h-1/2 w-[50px]  focus:outline-none"
+        className="absolute top-0 hover:border right-0   text-[45px]   text-white p-2 px-2 h-[30vh] w-[50px]  focus:outline-none"
         onClick={nextImage}
       >
-        <MdKeyboardArrowRight />
+        <MdKeyboardArrowRight  />
       </button>
- 
-      
     </div>
   );
 }

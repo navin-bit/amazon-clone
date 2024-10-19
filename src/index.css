@@ -9,3 +9,7 @@
 .navbar {
   background-color: #232f3e;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
