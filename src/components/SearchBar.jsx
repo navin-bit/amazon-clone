@@ -18,7 +18,7 @@ export default function SearchBar() {
           className="w-full rounded-e-sm px-1 text-black border-gray-200 py-2 pe-10 shadow-sm sm:text-sm"
         />
 
-        <span className="absolute  rounded-e-sm overflow-hidden bg-yellow-300 inset-y-0 end-0 grid w-10 place-content-center">
+        <span className="absolute  rounded-e-sm overflow-hidden bg-yellow-500 inset-y-0 end-0 grid w-10 place-content-center">
           <button type="button" className="  text-black   ">
             <span className="sr-only">Search</span>
 

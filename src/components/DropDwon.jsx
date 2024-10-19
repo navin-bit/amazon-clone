@@ -7,12 +7,12 @@ export default function DropDwon() {
         <div className="inline-flex items-center overflow-hidden p-1 pb-1 rounded-s-sm  bg-gray-200 border">
           <a
             href="#"
-            className="border-e px-4 py-2 text-sm/none  bg-gray-200 text-gray-700 hover:bg-gray-50 hover:text-gray-700"
+            className="border-e px-1 py-2 text-sm/none  bg-gray-200 text-gray-700 hover:bg-gray-50 hover:text-gray-700"
           >
             All
           </a>
 
-          <button className="h-full p-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700">
+          <button className=" p-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700">
             <span className="sr-only">Menu</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

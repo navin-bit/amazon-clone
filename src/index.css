@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .header {
+  background-color: #12181f;
+}
+
+.navbar {
   background-color: #232f3e;
 }
