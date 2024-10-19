@@ -10,7 +10,7 @@ import gif from "../assets/home-container/c1921765-0119-4c96-94ef-c38446fed8b0.g
 export default function HomeContainer() {
   return (
     <div className="relative top-[-500px]   w-full   z-10">
-      <div className="home-boxes whitespace-nowrap overflow-x-auto w-full flex">
+      <div className="home-boxes whitespace-nowrap overflow-x-scroll  w-full flex">
         <div className="home-box  px-5 py-2 m-4 bg-white w-[330px] h-[400px]">
           <h1 className="font-bold text-[20px] m-2">
             New deals added everyday
